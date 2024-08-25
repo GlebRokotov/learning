@@ -33,7 +33,7 @@ async function main() {
     /*const result = await transfersContrant.getTransfer(0);                  // блок для выполнения запроса о конкретном переводе из контракта
     console.log(ethers.formatEther(result['amount']), result['sender']);*/
 
-    /*const result = await transfersContrant.withdrawTo(acc2.address);          // блок выполняет вывод средств из контракта на указанный адрес
+    /*const result = await transfersContrant.withdrawTo(acc2.address);        // блок выполняет вывод средств из контракта на указанный адрес
                                                                               // и проверяет обновленные балансы.
     console.log(result);
     await currentBalance(acc2.address, 'Account 2 balance:');
